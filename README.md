@@ -1,361 +1,320 @@
-# Awesome Web3 + AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated list of awesome resources at the intersection of **Web3** and **Artificial Intelligence**.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f23,50:7c3aed,100:00d4aa&height=220&section=header&text=Awesome%20Web3%20+%20AI&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Curated%20collection%20of%20the%20best%20Web3%20+%20AI%20tools%2C%20frameworks%2C%20and%20resources&descSize=16&descAlignY=52" width="100%"/>
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Stars](https://img.shields.io/github/stars/Fatkhl/awesome-web3-ai?style=social)](https://github.com/Fatkhl/awesome-web3-ai/stargazers)
 
-The convergence of blockchain and AI is creating a new paradigm — autonomous agents on-chain, AI-powered smart contracts, decentralized compute networks, and intelligent DeFi protocols. This list curates the best tools, frameworks, research, and projects at this intersection.
+*The intersection of Web3 and Artificial Intelligence — curated for builders, researchers, and degens.*
 
----
+<br/>
 
-## Contents
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
-- [🤖 AI Agents on Blockchain](#-ai-agents-on-blockchain)
-- [🔗 AI for Smart Contracts](#-ai-for-smart-contracts)
-- [🧠 Decentralized AI Compute](#-decentralized-ai-compute)
-- [📊 AI-Powered DeFi](#-ai-powered-defi)
-- [🔒 ZK + ML (Zero-Knowledge Machine Learning)](#-zk--ml-zero-knowledge-machine-ling)
-- [🌐 DePIN + AI](#-depin--ai)
-- [🛠️ Developer Tools](#%EF%B8%8F-developer-tools)
-- [📚 Research & Papers](#-research--papers)
-- [🎓 Tutorials & Courses](#-tutorials--courses)
-- [🏗️ Infrastructure](#%EF%B8%8F-infrastructure)
-- [💬 Communities](#-communities)
-- [📰 Newsletters & Blogs](#-newsletters--blogs)
-- [🚀 Notable Projects](#-notable-projects)
+</div>
 
----
+## 📖 Contents
+
+<div align="center">
+
+| | Category | Description |
+|:---:|:---|:---|
+| 🤖 | [AI Agents on Blockchain](#-ai-agents-on-blockchain) | Autonomous agents living on-chain |
+| 🔗 | [AI for Smart Contracts](#-ai-for-smart-contracts) | AI-powered security & code generation |
+| 🧠 | [Decentralized AI Compute](#-decentralized-ai-compute) | Distributed GPU & model training |
+| 📊 | [AI-Powered DeFi](#-ai-powered-defi) | ML-driven trading & risk management |
+| 🔒 | [ZK + ML](#-zk--ml) | Zero-knowledge machine learning |
+| 🌐 | [DePIN + AI](#-depin--ai) | Physical infrastructure meets AI |
+| 🛠️ | [Developer Tools](#%EF%B8%8F-developer-tools) | Frameworks, SDKs, and libraries |
+| 📚 | [Research & Papers](#-research--papers) | Academic papers & technical deep dives |
+| 🎓 | [Tutorials & Courses](#-tutorials--courses) | Learn Web3 + AI from scratch |
+| 🏗️ | [Infrastructure](#-infrastructure) | RPC, oracles, storage, indexing |
+| 💬 | [Communities](#-communities) | Discord, Telegram, forums |
+| 📰 | [Newsletters & Blogs](#-newsletters--blogs) | Stay updated |
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🤖 AI Agents on Blockchain
 
-> Autonomous AI agents that operate on-chain, manage wallets, execute transactions, and interact with DeFi protocols.
+> Autonomous agents that can reason, trade, and interact with smart contracts on their own.
 
-### Frameworks
+| Project | Description | Links |
+|:---|:---|:---|
+| **[Eliza (ai16z)](https://github.com/elizaOS/eliza)** | 🏆 #1 AI Agent framework — TypeScript, multi-platform, plugin system | [Docs](https://elizaos.github.io/eliza/) · [Discord](https://discord.gg/ai16z) |
+| **[GOAT SDK](https://github.com/goat-sdk/goat)** | 🐐 Onchain AI Agent toolkit — 20+ chains, 100+ tools | [Docs](https://ohmygoat.dev/) |
+| **[Fetch.ai](https://fetch.ai/)** | Autonomous economic agents for DeFi, mobility, IoT | [Docs](https://docs.fetch.ai/) · [GitHub](https://github.com/fetchai) |
+| **[Autonolas](https://olas.network/)** | Coordinated autonomous agents, off-chain services | [Docs](https://autonolas.network/) · [GitHub](https://github.com/valory-xyz) |
+| **[Virtuals Protocol](https://virtuals.io/)** | Tokenized AI agents on Base — gaming & entertainment | [Docs](https://whitepaper.virtuals.io/) |
+| **[CrewAI](https://github.com/crewAIInc/crewAI)** | 🚀 Multi-agent orchestration with role-based architecture | [Docs](https://docs.crewai.com/) |
+| **[G.A.M.E. (Virtuals)](https://github.com/virtuals-protocol/G.A.M.E.-Framework)** | Goal, Action, Memory, Environment agent framework | [Docs](https://docs.virtuals.io/) |
+| **[MyShell](https://myshell.ai/)** | AI agent marketplace with voice & chat integration | [GitHub](https://github.com/myshell-ai) |
+| **[REVOX](https://revox.ai/)** | Modular AI agent network on-chain | [Docs](https://docs.revox.ai/) |
+| **[Morpheus](https://mor.org/)** | Decentralized AI network — SmartAgent protocol | [Whitepaper](https://mor.org/) |
+| **[Spectral](https://spectrum.fi/)** | Onchain agent economy with SYNTAX agent builder | [Docs](https://docs.spectrallabs.xyz/) |
+| **[AgentLayer](https://agentlayer.xyz/)** | Decentralized autonomous AI agent network | [Docs](https://docs.agentlayer.xyz/) |
 
-- [ai16z/eliza](https://github.com/ai16z/eliza) - Autonomous agent framework for Web3. Multi-platform, multi-chain, with memory and personality. ⭐15K+
-- [Fetch.ai](https://fetch.ai/) - Open platform for building autonomous economic agents that connect, search, and transact.
-- [Autonolas (Olas)](https://olas.network/) - Stack for co-owning AI agents that operate on-chain services.
-- [AgentLayer](https://agentlayer.io/) - Decentralized autonomous AI agent network on blockchain.
-- [MyShell](https://myshell.ai/) - AI agent platform with token economics and on-chain integration.
-- [Griptape](https://github.com/griptape-ai/griptape) - Modular Python framework for AI agents with blockchain tooling.
-
-### On-Chain Agents
-
-- [Bankr](https://bankr.xyz/) - AI agent that manages your DeFi portfolio via natural language commands.
-- [Wayfinder](https://www.wayfinder.ai/) - AI agent navigation protocol for blockchain interactions.
-- [Spectral](https://spectrum.fi/) - On-chain agent economy with machine intelligence.
-- [Mozaic](https://mozaic.finance/) - AI-powered yield optimization agent.
-- [ARIA](https://aria.network/) - AI agent network for autonomous blockchain operations.
-
-### Agent Tokens & Economies
-
-- [Virtuals Protocol](https://virtuals.io/) - Protocol for launching AI agent tokens with built-in economies.
-- [GOAT (Great Onchain Agent Toolkit)](https://github.com/plutolang/goat) - Toolkit for building on-chain AI agents.
-- [SendAI](https://sendai.fun/) - Solana-based AI agent toolkit.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🔗 AI for Smart Contracts
 
-> Tools that use AI to write, audit, analyze, and optimize smart contracts.
+> AI that writes, audits, and secures smart contracts — your personal blockchain security expert.
 
-### Code Generation
+| Project | Description | Links |
+|:---|:---|:---|
+| **[Slither](https://github.com/crytic/slither)** | 🔍 Solidity static analysis framework by Trail of Bits | [Docs](https://github.com/crytic/slither/wiki) |
+| **[Mythril](https://github.com/ConsenSys/mythril)** | 🔒 Security analysis tool for EVM bytecode | [Docs](https://mythril.readthedocs.io/) |
+| **[Certora](https://www.certora.com/)** | Formal verification for smart contracts | [Docs](https://docs.certora.com/) |
+| **[Cyfrin Aderyn](https://github.com/Cyfrin/aderyn)** | 🦜 Rust-based Solidity static analyzer | [Docs](https://cyfrin.io/aderyn) |
+| **[ChainGPT](https://chaingpt.org/)** | AI for blockchain — smart contract generation & auditing | [Docs](https://docs.chaingpt.org/) |
+| **[Neurelo](https://www.neurelo.com/)** | AI-powered API layer for databases | [Docs](https://docs.neurelo.com/) |
+| **[0xdefi.ai](https://0xdefi.ai/)** | AI-powered DeFi assistant | [Twitter](https://twitter.com/0xdefi_ai) |
+| **[Halmos](https://github.com/a16z/halmos)** | a16z's symbolic testing for Solidity | [Docs](https://github.com/a16z/halmos) |
+| **[SmtChecker](https://docs.soliditylang.org/en/latest/smtchecker.html)** | Built-in Solidity formal verification via SMT | [Docs](https://docs.soliditylang.org/) |
 
-- [ChatSolidity](https://github.com/0xchat/chat-solidity) - AI-powered Solidity code generator.
-- [ContractGPT](https://contractgpt.io/) - Generate smart contracts from natural language descriptions.
-- [Cyfrin](https://www.cyfrin.io/) - AI-powered smart contract security platform.
-- [ChainGPT](https://chaingpt.org/) - AI for blockchain: code generation, auditing, analytics.
-- [Alchemy AI](https://www.alchemy.com/) - AI-enhanced blockchain developer platform.
-
-### Auditing & Security
-
-- [Slither](https://github.com/crytic/slither) - Static analysis framework for Solidity (by Trail of Bits).
-- [Mythril](https://github.com/ConsenSys/mythril) - Security analysis tool for EVM bytecode.
-- [Securify](https://github.com/eth-sri/securify2) - Security scanner for Ethereum smart contracts.
-- [Octopus](https://github.com/pventuzan/octopus) - Security analysis framework for smart contracts.
-- [AI Audit](https://github.com/topics/ai-audit) - Community projects for AI-powered contract auditing.
-- [Forta](https://forta.org/) - Decentralized monitoring network for smart contract security.
-- [Halmos](https://github.com/a16z/halmos) - Symbolic testing for EVM smart contracts.
-
-### Formal Verification
-
-- [Certora](https://www.certora.com/) - Formal verification platform for smart contracts.
-- [KEVM](https://github.com/runtimeverification/evm-semantics) - Formal semantics of the EVM.
-- [SMTChecker](https://docs.soliditylang.org/en/v0.8.24/smtchecker.html) - Built-in Solidity formal verification.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🧠 Decentralized AI Compute
 
-> Networks for distributed AI training, inference, and model serving.
+> Rent GPUs, train models, run inference — all decentralized, all permissionless.
 
-### Compute Networks
+| Project | Description | Links |
+|:---|:---|:---|
+| **[Bittensor](https://bittensor.com/)** | 🧠 Decentralized ML network — $TAO | [Docs](https://docs.bittensor.com/) · [GitHub](https://github.com/opentensor) |
+| **[io.net](https://io.net/)** | 🖥️ Distributed GPU cloud — 100k+ GPUs | [Docs](https://docs.io.net/) |
+| **[Render Network](https://render.foundation/)** | 🎨 Distributed GPU rendering — $RENDER | [Docs](https://render.foundation/) |
+| **[Akash Network](https://akash.network/)** | ☁️ Decentralized cloud computing marketplace | [Docs](https://docs.akash.network/) · [GitHub](https://github.com/akash-network) |
+| **[SingularityNET](https://singularitynet.io/)** | 🤖 Decentralized AI marketplace & services | [Docs](https://dev.singularitynet.io/) |
+| **[Nosana](https://nosana.io/)** | GPU-powered AI inference on Solana | [Docs](https://docs.nosana.io/) |
+| **[Ritual](https://ritual.net/)** | Decentralized AI inference layer | [Docs](https://docs.ritual.net/) |
+| **[Allora Network](https://allora.network/)** | Self-improving decentralized AI network | [Docs](https://docs.allora.network/) |
+| **[Gensyn](https://gensyn.ai/)** | Deep learning compute protocol | [Docs](https://docs.gensyn.ai/) |
+| **[Golem Network](https://golem.network/)** | Decentralized computing power marketplace | [Docs](https://docs.golem.network/) · [GitHub](https://github.com/golemfactory) |
+| **[Flux](https://runonflux.io/)** | Decentralized cloud infrastructure | [Docs](https://runonflux.io/) |
+| **[Grass](https://www.grass.io/)** | Earn by sharing unused bandwidth for AI training | [Docs](https://docs.grass.io/) |
 
-- [Bittensor](https://bittensor.com/) - Decentralized machine learning network with token incentives.
-- [Render Network](https://rendernetwork.com/) - Distributed GPU rendering network.
-- [Akash Network](https://akash.network/) - Decentralized cloud computing marketplace.
-- [io.net](https://io.net/) - Decentralized GPU network for AI/ML workloads.
-- [Golem](https://golem.network/) - Decentralized computing power marketplace.
-- [iExec](https://iex.ec/) - Decentralized cloud computing based on blockchain.
-- [Nosana](https://nosana.io/) - GPU computing marketplace on Solana.
-- [Aethir](https://aethir.com/) - Distributed GPU cloud infrastructure.
-
-### Model Marketplaces
-
-- [SingularityNET](https://singularitynet.io/) - Decentralized AI marketplace.
-- [Ocean Protocol](https://oceanprotocol.com/) - Data exchange protocol for AI.
-- [Morpheus](https://mor.org/) - Decentralized AI network with smart agents.
-- [Ritual](https://ritual.net/) - Decentralized AI inference network.
-- [Allora](https://allora.network/) - Self-improving decentralized AI network.
-
-### Training Platforms
-
-- [FedML](https://fedml.ai/) - Collaborative/federated AI platform.
-- [Flower](https://flower.ai/) - Friendly federated learning framework.
-- [Nunet](https://nunet.io/) - Decentralized computing network for AI.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 📊 AI-Powered DeFi
 
-> DeFi protocols enhanced by AI for trading, yield optimization, risk management, and analytics.
+> Machine learning meets DeFi — smarter trading, better risk management, alpha generation.
 
-### Trading & Strategy
+| Project | Description | Links |
+|:---|:---|:---|
+| **[Numerai](https://numer.ai/)** | 🏆 Crowd-sourced hedge fund with ML tournaments | [Docs](https://docs.numer.ai/) |
+| **[Gauntlet](https://gauntlet.xyz/)** | ML-driven protocol optimization & risk management | [Docs](https://docs.gauntlet.xyz/) |
+| **[Nansen](https://www.nansen.ai/)** | On-chain analytics with AI-powered insights | [Docs](https://docs.nansen.ai/) |
+| **[Dune Analytics](https://dune.com/)** | Community-driven blockchain analytics + AI queries | [Docs](https://docs.dune.com/) |
+| **[Arkham Intelligence](https://www.arkham.com/)** | AI-powered blockchain intelligence & deanonymization | [Docs](https://docs.arkham.com/) |
+| **[Kaito](https://www.kaito.ai/)** | AI-powered Web3 search engine | [Docs](https://docs.kaito.ai/) |
+| **[Messari](https://messari.io/)** | AI-assisted crypto research & analytics | [Docs](https://docs.messari.io/) |
+| **[Token Metrics](https://www.tokenmetrics.com/)** | AI crypto trading & investment analytics | [Docs](https://docs.tokenmetrics.com/) |
+| **[Velar](https://velar.co/)** | AI-powered DeFi on Bitcoin (Stacks) | [Docs](https://docs.velar.co/) |
+| **[Mozaic](https://mozaic.finance/)** | AI-optimized yield farming strategies | [Docs](https://docs.mozaic.finance/) |
 
-- [Numerai](https://numer.ai/) - AI-powered hedge fund with crowdsourced models.
-- [dHEDGE](https://dhedge.org/) - Decentralized asset management with AI strategies.
-- [Yearn Finance](https://yearn.fi/) - Automated yield optimization (AI-enhanced strategies).
-- [Gauntlet](https://gauntlet.xyz/) - AI-driven risk management for DeFi protocols.
-- [Cega](https://www.cega.fi/) - AI-powered structured products in DeFi.
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
-### Analytics & Research
+## 🔒 ZK + ML
 
-- [Dune Analytics](https://dune.com/) - Blockchain analytics with AI-powered queries.
-- [Nansen](https://www.nansen.ai/) - AI-powered blockchain analytics platform.
-- [Messari](https://messari.io/) - Crypto research with AI-powered insights.
-- [Token Terminal](https://tokenterminal.com/) - Financial analytics for crypto with AI.
-- [Arkham](https://www.arkhamintelligence.com/) - AI-powered blockchain intelligence.
+> Prove ML model inference on-chain without revealing the model — privacy-preserving AI.
 
-### Risk Management
+| Project | Description | Links |
+|:---|:---|:---|
+| **[EZKL](https://ezkl.xyz/)** | 🔥 ZK proofs for ML models — ONNX to circuits | [Docs](https://docs.ezkl.xyz/) · [GitHub](https://github.com/zkonduit/ezkl) |
+| **[Modulus Labs](https://www.modulus.xyz/)** | ZK proofs for on-chain AI inference | [Docs](https://docs.modulus.xyz/) |
+| **[Giza](https://www.giza.tech/)** | ZKML for verifiable AI on-chain | [Docs](https://docs.giza.tech/) · [GitHub](https://github.com/gizatechxyz) |
+| **[Risc Zero](https://www.risczero.com/)** | ZK coprocessor — verifiable computation | [Docs](https://dev.risczero.com/) · [GitHub](https://github.com/risc0/risc0) |
+| **[Inference Labs](https://inference-labs.com/)** | ZK proofs for ML inference verification | [GitHub](https://github.com/inference-labs) |
+| **[Orbis Labs](https://orbislabs.io/)** | ZK-ML infrastructure | [Docs](https://docs.orbislabs.io/) |
+| **[WorldCoin](https://worldcoin.org/)** | ZK proofs for human identity verification | [GitHub](https://github.com/worldcoin) |
 
-- [Chaos Labs](https://chaoslabs.xyz/) - AI-powered risk management for DeFi.
-- [Risk Harbor](https://riskharbor.com/) - Algorithmic risk management protocol.
-- [Gauntlet](https://gauntlet.xyz/) - Simulation-based risk parameter optimization.
-
----
-
-## 🔒 ZK + ML (Zero-Knowledge Machine Learning)
-
-> Combining zero-knowledge proofs with machine learning for verifiable, private AI.
-
-### Frameworks
-
-- [EZKL](https://github.com/zkonduit/ezkl) - Library for proving ML models with ZK proofs. ⭐3K+
-- [Cairo ZKML](https://github.com/0xPARC/zkml) - ZK machine learning with Cairo.
-- [Modulus Labs](https://www.moduluslabs.xyz/) - ZK proofs for AI model inference.
-- [Giza](https://gizatech.xyz/) - Verifiable AI on-chain with ZK proofs.
-- [Risc Zero](https://www.risczero.com/) - ZK virtual machine for verifiable computation.
-- [Inference Labs](https://inference.xyz/) - ZK-verified AI inference on-chain.
-
-### Research
-
-- [ZKML Survey](https://arxiv.org/abs/2402.01547) - Comprehensive survey of ZK machine learning.
-- [Worldcoin ZKML](https://worldcoin.org/) - ZK proofs for human verification using ML.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🌐 DePIN + AI
 
-> Decentralized Physical Infrastructure Networks enhanced by AI.
+> Decentralized physical infrastructure networks powered by AI.
 
-### Networks
+| Project | Description | Links |
+|:---|:---|:---|
+| **[Helium](https://helium.com/)** | 📡 Decentralized wireless — IoT & 5G with AI optimization | [Docs](https://docs.helium.com/) · [GitHub](https://github.com/helium) |
+| **[Hivemapper](https://www.hivemapper.com/)** | 🗺️ Decentralized mapping with AI image processing | [Docs](https://docs.hivemapper.com/) |
+| **[Filecoin](https://filecoin.io/)** | 💾 Decentralized storage — baseline for AI data | [Docs](https://docs.filecoin.io/) · [GitHub](https://github.com/filecoin-project) |
+| **[Arweave](https://www.arweave.org/)** | 🔒 Permanent data storage for AI training data | [Docs](https://docs.arweave.org/) · [GitHub](https://github.com/ArweaveTeam) |
+| **[Theta Network](https://www.thetanetwork.org/)** | 🎬 Decentralized video delivery + AI compute | [Docs](https://docs.thetatoken.org/) |
+| **[DIMO](https://dimo.zone/)** | 🚗 Decentralized vehicle data network | [Docs](https://docs.dimo.zone/) |
+| **[Akash](https://akash.network/)** | ☁️ Decentralized cloud with AI workload support | [Docs](https://docs.akash.network/) |
+| **[Streamr](https://streamr.network/)** | Real-time data streaming for AI applications | [Docs](https://docs.streamr.network/) · [GitHub](https://github.com/streamr-dev) |
+| **[peaq](https://www.peaq.network/)** | DePIN layer-1 for AI-powered machines | [Docs](https://docs.peaq.network/) |
 
-- [Helium](https://helium.com/) - Decentralized wireless network with AI optimization.
-- [Hivemapper](https://www.hivemapper.com/) - Decentralized mapping network.
-- [Grass](https://www.grass.io/) - Decentralized data network for AI training.
-- [Dimo](https://dimo.zone/) - Decentralized vehicle network with AI analytics.
-- [NATIX](https://natix.network/) - AI-powered decentralized mapping.
-- [io.net](https://io.net/) - DePIN for GPU computing.
-- [Filecoin](https://filecoin.io/) - Decentralized storage with AI integration.
-- [Arweave](https://www.arweave.org/) - Permanent data storage for AI models.
-
-### Data Networks
-
-- [Streamr](https://streamr.network/) - Decentralized real-time data network.
-- [Flux](https://runonflux.io/) - Decentralized cloud infrastructure.
-- [Phala Network](https://phala.network/) - Privacy-preserving cloud computing.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🛠️ Developer Tools
 
-### Libraries & SDKs
+> Build the future of Web3 + AI with these essential tools.
 
-- [web3.py](https://github.com/ethereum/web3.py) - Python library for Ethereum interaction.
-- [ethers.js](https://github.com/ethers-io/ethers.js) - Complete Ethereum library for JavaScript.
-- [viem](https://github.com/wevm/viem) - Type-safe Ethereum interactions for TypeScript.
-- [wagmi](https://github.com/wevm/wagmi) - React Hooks for Ethereum.
-- [anchor](https://github.com/coral-xyz/anchor) - Solana development framework.
-- [solana-py](https://github.com/michaelhly/solanapy) - Python client for Solana.
-- [web3.js](https://github.com/chainSafe/web3.js) - Ethereum JavaScript API.
+### Smart Contract Development
 
-### AI + Web3 SDKs
+| Tool | Description | Language |
+|:---|:---|:---|
+| **[Hardhat](https://hardhat.org/)** | Ethereum development environment | JavaScript/TypeScript |
+| **[Foundry](https://book.getfoundry.sh/)** | Blazing fast Solidity toolkit | Rust/Solidity |
+| **[Remix](https://remix.ethereum.org/)** | Browser-based Solidity IDE | Web |
+| **[Brownie](https://eth-brownie.readthedocs.io/)** | Python-based smart contract framework | Python |
 
-- [LangChain](https://github.com/langchain-ai/langchain) - Building applications with LLMs (has Web3 tools).
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLM applications.
-- [OpenAI Functions](https://platform.openai.com/docs/guides/function-calling) - Function calling for blockchain interactions.
-- [Moralis](https://moralis.com/) - Web3 API with AI-powered analytics.
-- [Alchemy](https://www.alchemy.com/) - Web3 developer platform with AI features.
-- [QuickNode](https://www.quicknode.com/) - Blockchain infrastructure with AI tools.
+### AI/ML Integration
 
-### Testing & Deployment
+| Tool | Description | Language |
+|:---|:---|:---|
+| **[LangChain](https://www.langchain.com/)** | Framework for LLM applications | Python/JavaScript |
+| **[LlamaIndex](https://www.llamaindex.ai/)** | Data framework for LLM applications | Python |
+| **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | Autonomous AI agent | Python |
+| **[AgentGPT](https://github.com/reworkd/AgentGPT)** | Browser-based autonomous AI agent | JavaScript |
 
-- [Hardhat](https://hardhat.org/) - Ethereum development environment.
-- [Foundry](https://book.getfoundry.sh/) - Blazing fast Ethereum development toolkit.
-- [Brownie](https://github.com/eth-brownie/brownie) - Python-based smart contract development.
-- [Remix](https://remix.ethereum.org/) - Browser-based IDE with AI plugins.
-- [Tenderly](https://tenderly.co/) - Smart contract monitoring with AI insights.
+### Web3 Libraries
 
----
+| Library | Description | Language |
+|:---|:---|:---|
+| **[ethers.js](https://docs.ethers.org/)** | Complete Ethereum library | JavaScript/TypeScript |
+| **[web3.py](https://web3py.readthedocs.io/)** | Python library for Ethereum | Python |
+| **[web3.js](https://docs.web3js.org/)** | Ethereum JavaScript API | JavaScript |
+| **[viem](https://viem.sh/)** | TypeScript interface for Ethereum | TypeScript |
+| **[wagmi](https://wagmi.sh/)** | React Hooks for Ethereum | TypeScript |
+| **[solana-web3.js](https://solana-labs.github.io/solana-web3.js/)** | Solana JavaScript SDK | JavaScript |
+| **[Anchor](https://www.anchor-lang.com/)** | Solana smart contract framework | Rust |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 📚 Research & Papers
 
-### Key Papers
+> Academic papers and technical deep dives at the frontier of Web3 + AI.
 
-- [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) - OpenAI's multimodal model.
-- [ZKML: Verifiable Machine Learning](https://arxiv.org/abs/2402.01547) - Survey of ZK + ML.
-- [Decentralized AI: A Survey](https://arxiv.org/abs/2303.17669) - Comprehensive overview.
-- [On-chain AI Agents](https://arxiv.org/abs/2401.13465) - Autonomous agents on blockchain.
-- [Proof of Learning](https://arxiv.org/abs/2103.04301) - Blockchain consensus via ML.
-- [Flashbots & MEV](https://writings.flashbots.net/) - MEV research with AI optimization.
+### 📄 Must-Read Papers
 
-### Research Groups
+- [**ZKML Survey**](https://arxiv.org/abs/2405.05tried) — Comprehensive survey of zero-knowledge machine learning
+- [**Flashbots: MEV and the Ethereum Economy**](https://writings.flashbots.net/) — Maximal extractable value research
+- [**Verifiable ML**](https://www.mosaic.computer/research) — On-chain ML inference verification
+- [**SoK: Data Privacy in Decentralized Systems**](https://eprint.iacr.org/) — Privacy-preserving computation
 
-- [Flashbots](https://flashbots.net/) - MEV research and mitigation.
-- [Paradigm](https://www.paradigm.xyz/) - Crypto research with AI focus.
-- [a16z crypto](https://a16zcrypto.com/) - Research at the intersection of crypto and AI.
-- [0xPARC](https://0xparc.org/) - Applied cryptography research (ZKML).
-- [ETHEREUM Foundation](https://ethereum.org/) - Core protocol research.
+### 📝 Research Labs
 
----
+| Lab | Focus | Links |
+|:---|:---|:---|
+| **[Paradigm](https://www.paradigm.xyz/)** | Crypto-native research & engineering | [Blog](https://www.paradigm.xyz/writing) |
+| **[a16z crypto](https://a16zcrypto.com/)** | Web3 research & investments | [Blog](https://a16zcrypto.com/posts/) |
+| **[Flashbots](https://www.flashbots.net/)** | MEV research & mitigation | [Writings](https://writings.flashbots.net/) |
+| **[Ethereum Foundation](https://ethereum.org/)** | Ethereum research & development | [Research](https://ethereum.org/en/research/) |
+| **[Protocol Labs](https://protocol.ai/)** | IPFS, Filecoin, libp2p research | [Blog](https://blog.protocol-labs.io/) |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🎓 Tutorials & Courses
 
-### Courses
+> From zero to hero in Web3 + AI development.
 
-- [CryptoZombies](https://cryptozombies.io/) - Learn Solidity through building games.
-- [Alchemy University](https://university.alchemy.com/) - Free Web3 developer bootcamp.
-- [Cyfrin Updraft](https://updraft.cyfrin.io/) - Smart contract security course.
-- [LearnWeb3](https://learnweb3.io/) - Full-stack Web3 development.
-- [Base Camp](https://base.org/camp) - Base chain developer resources.
+### 🔰 Beginner
 
-### AI + Web3 Tutorials
+| Resource | Description | Duration |
+|:---|:---|:---|
+| **[CryptoZombies](https://cryptozombies.io/)** | 🧟 Learn Solidity by building games | Free |
+| **[Alchemy University](https://www.alchemy.com/university)** | Ethereum developer bootcamp | Free |
+| **[Cyfrin Updraft](https://updraft.cyfrin.io/)** | Smart contract development by Patrick Collins | Free |
+| **[LearnWeb3](https://learnweb3.io/)** | Full-stack Web3 developer tracks | Free |
+| **[Base Camp](https://base.org/camp)** | Build on Base by Coinbase | Free |
 
-- [Build an AI Agent on Ethereum](https://www.youtube.com/results?search_query=ai+agent+ethereum+tutorial) - Video tutorials for building AI agents.
-- [LangChain + Web3](https://docs.langchain.com/docs/) - Using LangChain with blockchain.
-- [ZKML Tutorial](https://github.com/zkonduit/ezkl-tutorial) - Getting started with ZK machine learning.
-- [Eliza Quickstart](https://elizaos.github.io/eliza/) - Build autonomous agents with Eliza.
+### 🚀 Advanced
 
----
+| Resource | Description | Focus |
+|:---|:---|:---|
+| **[LangChain Tutorials](https://python.langchain.com/docs/tutorials/)** | Build LLM applications | AI Agents |
+| **[EZKL Notebooks](https://github.com/zkonduit/ezkl/tree/main/examples/notebooks)** | ZKML step-by-step guides | ZK + ML |
+| **[Solana Cookbook](https://solanacookbook.com/)** | Solana development recipes | Solana |
+| **[Uniswap v3 Development](https://docs.uniswap.org/)** | DeFi protocol integration | DeFi |
+| **[Chainlink Docs](https://docs.chain.link/)** | Oracle integration tutorials | Oracles |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 🏗️ Infrastructure
 
-### Node Providers
+> The backbone of Web3 + AI applications.
 
-- [Alchemy](https://www.alchemy.com/) - Blockchain API with AI features.
-- [Infura](https://www.infura.io/) - Ethereum and IPFS API.
-- [QuickNode](https://www.quicknode.com/) - Multi-chain node infrastructure.
-- [Ankr](https://www.ankr.com/) - Decentralized node infrastructure.
-- [Chainstack](https://chainstack.com/) - Blockchain infrastructure platform.
+| Category | Tools |
+|:---|:---|
+| **🔗 RPC Providers** | [Alchemy](https://www.alchemy.com/) · [QuickNode](https://www.quicknode.com/) · [Infura](https://www.infura.io/) · [Ankr](https://www.ankr.com/) · [Chainstack](https://chainstack.com/) |
+| **🔮 Oracles** | [Chainlink](https://chain.link/) · [Pyth](https://pyth.network/) · [Band Protocol](https://bandprotocol.com/) · [API3](https://api3.org/) |
+| **💾 Storage** | [IPFS](https://ipfs.tech/) · [Arweave](https://www.arweave.org/) · [Filecoin](https://filecoin.io/) · [Ceramic](https://ceramic.network/) |
+| **📊 Indexing** | [The Graph](https://thegraph.com/) · [SubQuery](https://subquery.network/) · [Goldsky](https://goldsky.com/) |
+| **🌉 Bridges** | [LayerZero](https://layerzero.network/) · [Wormhole](https://wormhole.com/) · [Axelar](https://axelar.network/) |
+| **🔑 Identity** | [ENS](https://ens.domains/) · [WorldID](https://worldcoin.org/) · [SpruceID](https://spruceid.com/) · [Civic](https://www.civic.com/) |
 
-### Oracles + AI
-
-- [Chainlink](https://chain.link/) - Decentralized oracle network with AI integration.
-- [Pyth Network](https://pyth.network/) - High-frequency oracle for DeFi.
-- [Band Protocol](https://bandprotocol.com/) - Cross-chain oracle platform.
-- [API3](https://api3.org/) - First-party oracle solution.
-
-### Storage
-
-- [IPFS](https://ipfs.io/) - InterPlanetary File System for decentralized storage.
-- [Arweave](https://www.arweave.org/) - Permanent storage for AI models and data.
-- [Filecoin](https://filecoin.io/) - Decentralized storage network.
-- [Ceramic](https://ceramic.network/) - Decentralized data network.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 💬 Communities
 
-### Discord
+> Join the conversation and connect with builders.
 
-- [Eliza Discord](https://discord.gg/elizaos) - AI agent development community.
-- [Ethereum Discord](https://discord.gg/ethereum) - Ethereum developer community.
-- [Solana Discord](https://discord.gg/solana) - Solana developer community.
-- [Flashbots Discord](https://discord.gg/flashbots) - MEV research community.
+| Community | Platform | Focus |
+|:---|:---|:---|
+| [**AI x Crypto**](https://discord.gg/aixcrypto) | Discord | AI + Blockchain intersection |
+| [**ElizaOS**](https://discord.gg/ai16z) | Discord | AI Agent development |
+| [**Bittensor**](https://discord.gg/bittensor) | Discord | Decentralized AI network |
+| [**DePIN**](https://t.me/DePIN_Community) | Telegram | DePIN projects & alpha |
+| [**Web3 AI Builders**](https://discord.gg/web3ai) | Discord | Builder community |
+| [**EthResearch**](https://ethresear.ch/) | Forum | Ethereum research discussions |
 
-### Twitter/X
-
-- [@elaboraborate](https://twitter.com/elaboraborate) - AI agent research.
-- [@ai16z](https://twitter.com/ai16z) - AI + Web3 venture.
-- [@baborate](https://twitter.com/baborate) - Web3 AI news.
-
-### Telegram
-
-- [Dejavu Airdrop](https://t.me/Dejavuairdrop) - Web3 airdrop community.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
 ## 📰 Newsletters & Blogs
 
-- [The DePIN Report](https://thedepinreport.com/) - DePIN and AI infrastructure news.
-- [Bankless](https://www.bankless.com/) - Web3 and AI convergence.
-- [The Defiant](https://thedefiant.io/) - DeFi and AI news.
-- [Messari](https://messari.io/) - Crypto research with AI analysis.
-- [a16z crypto](https://a16zcrypto.com/posts/) - Crypto + AI research blog.
-- [Flashbots Writings](https://writings.flashbots.net/) - MEV and AI research.
+> Stay ahead of the curve with these curated sources.
 
----
+| Source | Description | Frequency |
+|:---|:---|:---|
+| [**Bankless**](https://www.bankless.com/) | Web3 news, guides, and alpha | Daily |
+| [**The Defiant**](https://www.thedefiant.io/) | DeFi news and analysis | Daily |
+| [**Messari**](https://messari.io/) | Institutional-grade crypto research | Daily |
+| [**Week in Ethereum**](https://weekinethereumnews.com/) | Ethereum ecosystem updates | Weekly |
+| [**a16z crypto**](https://a16zcrypto.com/posts/) | Crypto policy & tech essays | Monthly |
+| [**Paradigm Blog**](https://www.paradigm.xyz/writing) | Deep technical research | Irregular |
+| [**Flashbots Writings**](https://writings.flashbots.net/) | MEV research & transparency | Irregular |
+| [**ZK Podcast**](https://zeroknowledge.fm/) | Zero-knowledge proofs podcast | Weekly |
 
-## 🚀 Notable Projects
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
-### By Category
+## 📈 Star History
 
-| Category | Project | Description |
-|----------|---------|-------------|
-| AI Agents | [Eliza](https://github.com/ai16z/eliza) | Autonomous agent framework |
-| AI Agents | [Fetch.ai](https://fetch.ai/) | Autonomous economic agents |
-| Compute | [Bittensor](https://bittensor.com/) | Decentralized ML network |
-| Compute | [io.net](https://io.net/) | GPU network for AI |
-| DeFi | [Numerai](https://numer.ai/) | AI-powered hedge fund |
-| ZKML | [EZKL](https://github.com/zkonduit/ezkl) | ZK proofs for ML models |
-| DePIN | [Helium](https://helium.com/) | Decentralized wireless |
-| Security | [Forta](https://forta.org/) | AI-powered monitoring |
-| Storage | [Arweave](https://www.arweave.org/) | Permanent AI data storage |
-| Oracle | [Chainlink](https://chain.link/) | AI-enhanced oracles |
+[![Star History Chart](https://api.star-history.com/svg?repos=Fatkhl/awesome-web3-ai&type=Date)](https://star-history.com/#Fatkhl/awesome-web3-ai&Date)
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
-## Contributing
+## 🤝 Contributing
 
-Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
-1. Fork the repo
-2. Create a branch (`git checkout -b add-resource`)
-3. Add your resource to the appropriate section
-4. Commit (`git commit -m 'add: resource name'`)
-5. Push (`git push origin add-resource`)
-6. Open a PR
+<div align="center">
 
----
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-## License
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
+
+## 📄 License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Fatkhl](https://github.com/Fatkhl) has waived all copyright and related rights to this work.
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
 
 ---
 
-*Built with ❤️ by [@Fatkhl](https://github.com/Fatkhl)*
-*If you find this useful, give it a ⭐ and share it!*
+<div align="center">
+
+**⭐ If you found this useful, give it a star! ⭐**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f23,50:7c3aed,100:00d4aa&height=120&section=footer" width="100%"/>
+
+</div>
