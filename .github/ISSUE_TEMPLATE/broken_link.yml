@@ -1,0 +1,24 @@
+name: 🔗 Report Broken Link
+description: Report a broken or outdated link
+title: "[BROKEN] "
+labels: ["bug"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Which resource?
+      placeholder: e.g., EZKL, CryptoZombies
+    validations:
+      required: true
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+      placeholder: The URL that doesn't work
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened?
+      placeholder: 404, redirected, domain expired, etc.

@@ -1,75 +1,191 @@
-# Contributing to Awesome Web3 + AI
+# 🤝 Contributing to Awesome Web3 + AI
 
-Thank you for your interest in contributing! 🎉
+First off, thanks for taking the time to contribute! 🎉
 
-## How to Contribute
+<div align="center">
 
-### Adding a Resource
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
 
-1. **Fork** this repository
-2. **Create a branch** (`git checkout -b add-my-resource`)
-3. **Add your resource** to the appropriate section in `README.md`
-4. **Follow the format**: `- [Name](url) - Description. ⭐Stars`
-5. **Commit** (`git commit -m 'add: resource name'`)
-6. **Push** (`git push origin add-my-resource`)
-7. **Open a Pull Request**
+</div>
 
-### Guidelines
+## 📋 Table of Contents
 
-- ✅ Resource must be related to **both Web3 and AI**
-- ✅ Must be **actively maintained** (commits in last 6 months)
-- ✅ Must have a **clear README** and documentation
-- ✅ Description should be **concise** (one sentence)
-- ✅ Include star count if relevant (⭐X)
-- ❌ No duplicate entries
-- ❌ No abandoned/unmaintained projects
-- ❌ No scam or phishing links
-- ❌ No self-promotion without real value
+- [What We're Looking For](#-what-were-looking-for)
+- [What We DON'T Accept](#-what-we-dont-accept)
+- [How to Contribute](#-how-to-contribute)
+- [Quality Standards](#-quality-standards)
+- [Categories](#-categories)
+- [Style Guide](#-style-guide)
 
-### Categories
+## ✅ What We're Looking For
 
-Add your resource to the most relevant section:
+We want resources that are:
 
-- **AI Agents on Blockchain** — Autonomous agents, agent frameworks
-- **AI for Smart Contracts** — Code generation, auditing, security
-- **Decentralized AI Compute** — GPU networks, model marketplaces
-- **AI-Powered DeFi** — Trading, yield, risk management
-- **ZK + ML** — Zero-knowledge machine learning
-- **DePIN + AI** — Physical infrastructure + AI
-- **Developer Tools** — Libraries, SDKs, testing tools
-- **Research & Papers** — Academic papers, research groups
-- **Tutorials & Courses** — Learning resources
-- **Infrastructure** — Node providers, oracles, storage
+- **Relevant** — At the intersection of Web3 and AI
+- **High-quality** — Well-maintained, documented, and actively developed
+- **Useful** — Solves a real problem or teaches something valuable
+- **Open source** — Publicly accessible (preferred, not required)
 
-### Formatting
+### Examples of Great Contributions
 
-```markdown
-- [Project Name](https://github.com/org/repo) - Short description of what it does. ⭐1.2K
+- 🤖 A new AI agent framework for blockchain
+- 📚 A comprehensive tutorial on ZKML
+- 🛠️ A developer tool that bridges AI and smart contracts
+- 📄 A groundbreaking research paper on decentralized AI
+- 💬 A community focused on Web3 + AI intersection
+
+## ❌ What We DON'T Accept
+
+- **Scam projects** — Rug pulls, pump & dumps, fake tokens
+- **Dead projects** — No activity in 6+ months with no explanation
+- **Duplicates** — Already listed under a different name
+- **Self-promotion** — Your own project without community validation
+- **Low-effort** — "Just another fork" with no meaningful additions
+
+## 🚀 How to Contribute
+
+### 1. Fork & Clone
+
+```bash
+# Fork via GitHub UI, then:
+git clone https://github.com/YOUR_USERNAME/awesome-web3-ai.git
+cd awesome-web3-ai
 ```
 
-- Use `[Name](url)` format
-- Keep descriptions under 100 characters
-- Add star count if the project has significant community adoption
-- Link to the main repo/website, not a fork
+### 2. Create a Branch
 
-### Quality Standards
+```bash
+git checkout -b add/your-resource-name
+```
 
-We maintain high quality standards. Your PR may be rejected if:
+### 3. Add Your Resource
 
-- The project is not related to both Web3 AND AI
-- The project is abandoned or unmaintained
-- The description is too long or unclear
-- The link is broken or incorrect
-- It's a duplicate of an existing entry
+Edit `README.md` and add your resource to the appropriate category:
 
-## Reporting Issues
+```markdown
+| **[Project Name](https://link.com)** | Short description (1 line) | [Docs](link) · [GitHub](link) |
+```
 
-Found a broken link? A project that's no longer maintained? Open an issue!
+### 4. Quality Checklist
 
-## Code of Conduct
+Before submitting, verify:
 
-Be respectful and constructive. We're all here to learn and build.
+- [ ] Project is actively maintained (commits in last 3 months)
+- [ ] Has proper documentation
+- [ ] Links are working
+- [ ] Description is concise and accurate
+- [ ] Added to the correct category
+- [ ] No duplicate entries
+
+### 5. Commit & Push
+
+```bash
+git add README.md
+git commit -m "Add [Project Name] to [Category]"
+git push origin add/your-resource-name
+```
+
+### 6. Open a Pull Request
+
+- Use a clear title: `Add [Project Name] to [Category]`
+- Describe what you're adding and why
+- Link to the project's website/GitHub
+
+## 📏 Quality Standards
+
+### For Projects/Tools
+
+| Criteria | Requirement |
+|:---|:---|
+| GitHub stars | 100+ (preferred, not strict) |
+| Last commit | Within 3 months |
+| Documentation | README + docs site |
+| License | Open source preferred |
+| Community | Active Discord/Twitter |
+
+### For Tutorials/Courses
+
+| Criteria | Requirement |
+|:---|:---|
+| Quality | Clear, well-structured |
+| Up-to-date | Less than 1 year old |
+| Accessibility | Free or affordable |
+| Completeness | Covers topic thoroughly |
+
+### For Research Papers
+
+| Criteria | Requirement |
+|:---|:---|
+| Publication | Peer-reviewed or from reputable lab |
+| Relevance | Directly applicable to Web3 + AI |
+| Citation | Properly cited |
+| Access | Open access preferred |
+
+## 📂 Categories
+
+| Category | What Goes Here |
+|:---|:---|
+| AI Agents on Blockchain | Autonomous agents, agent frameworks, agent marketplaces |
+| AI for Smart Contracts | Audit tools, code generation, formal verification |
+| Decentralized AI Compute | GPU networks, distributed training, inference |
+| AI-Powered DeFi | ML trading, risk management, analytics |
+| ZK + ML | Zero-knowledge proofs for ML, ZKML |
+| DePIN + AI | Physical infrastructure + AI integration |
+| Developer Tools | Frameworks, SDKs, libraries, IDEs |
+| Research & Papers | Academic papers, technical reports |
+| Tutorials & Courses | Learning resources, guides, bootcamps |
+| Infrastructure | RPC, oracles, storage, indexing |
+| Communities | Discord, Telegram, forums |
+| Newsletters & Blogs | News sources, podcasts, blogs |
+
+## 🎨 Style Guide
+
+### Entry Format
+
+```markdown
+| **[Project Name](https://link.com)** | Brief description (max 80 chars) | [Docs](link) · [GitHub](link) |
+```
+
+### Description Rules
+
+- Start with a verb or noun (not "A" or "An")
+- Be specific — not just "A blockchain tool"
+- Include key differentiator when relevant
+- Max 80 characters
+- No marketing fluff
+
+### Good Examples
+
+```
+| **[Eliza](https://github.com/elizaOS/eliza)** | #1 AI Agent framework — TypeScript, multi-platform |
+| **[EZKL](https://ezkl.xyz/)** | ZK proofs for ML models — ONNX to circuits |
+```
+
+### Bad Examples
+
+```
+| **[SomeProject](link)** | A revolutionary next-gen blockchain AI solution |
+| **[AnotherProject](link)** | The best project ever made |
+```
+
+## 🏷️ Commit Messages
+
+```
+Add [Project] to [Category]
+Update [Project] description
+Remove [Project] — deprecated/moved
+Fix broken link for [Project]
+```
+
+## ❓ Questions?
+
+Open an issue with the `question` label or join our discussions.
 
 ---
 
-Thank you for making this list better! 🚀
+<div align="center">
+
+**Thank you for making this list awesome! 🚀**
+
+</div>

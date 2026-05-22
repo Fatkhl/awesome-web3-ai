@@ -1,0 +1,56 @@
+name: ➕ Suggest a Resource
+description: Suggest a new project, tool, or resource to add
+title: "[ADD] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project/Resource Name
+      placeholder: e.g., Eliza, EZKL, CryptoZombies
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - 🤖 AI Agents on Blockchain
+        - 🔗 AI for Smart Contracts
+        - 🧠 Decentralized AI Compute
+        - 📊 AI-Powered DeFi
+        - 🔒 ZK + ML
+        - 🌐 DePIN + AI
+        - 🛠️ Developer Tools
+        - 📚 Research & Papers
+        - 🎓 Tutorials & Courses
+        - 🏗️ Infrastructure
+        - 💬 Communities
+        - 📰 Newsletters & Blogs
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Brief description of what this resource does
+    validations:
+      required: true
+  - type: checkboxes
+    id: quality
+    attributes:
+      label: Quality Checklist
+      options:
+        - label: Actively maintained (commits in last 3 months)
+          required: true
+        - label: Has documentation
+          required: true
+        - label: Not a duplicate
+          required: true
